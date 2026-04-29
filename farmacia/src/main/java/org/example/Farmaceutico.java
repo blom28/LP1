@@ -1,10 +1,14 @@
 package org.example;
 
+import java.io.IOException;
+import javafx.fxml.FXML;
+
+
 public class Farmaceutico {
-    private String atender = "atende o cliente";
-    private String cobrar = "cobrou o valor do produto";
-    private String organizar = "organizou as gôndolas";
-    private String nome = "O Farmaceutico Bruno";
+    private String atender = " atende o cliente ";
+    private String cobrar = " cobrou o valor do produto ";
+    private String organizar = " organizou as gôndolas ";
+    private String nome = " O Farmaceutico Bruno ";
 
     public String setAtender() {
         return atender;
