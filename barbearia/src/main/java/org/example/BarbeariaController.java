@@ -40,7 +40,7 @@ public class BarbeariaController {
     @FXML
     private void Botao_Voltar() {
         try {
-            App.setRoot("Maquininha");
+            App.setRoot("Barbearia");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -58,6 +58,7 @@ public class BarbeariaController {
     @FXML
     private Label texto;
 
+    @FXML
     private void Botao_Atender() {
         texto.setText(barbeiro.atender());
 
@@ -111,3 +112,4 @@ public class BarbeariaController {
         texto.setText(maquininha.ligar());
 
     }
+}

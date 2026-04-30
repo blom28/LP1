@@ -1,10 +1,10 @@
 package org.example;
 
 public class Barbeiro {
-    private String nome = "Joaquim";
-    private String atende = "atendeu seu cliente";
-    private String cobra = "cobrou o valor do corte";
-    private String corta = "corta o cabelo";
+    private String nome = " Joaquim";
+    private String atende = " atendeu seu cliente ";
+    private String cobra = " cobrou o valor do corte ";
+    private String corta = " corta o cabelo ";
 
     public String nome() {
         return nome;
